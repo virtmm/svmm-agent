@@ -6,7 +6,7 @@ The wire contract (CloudEvents carried on one bidirectional stream) lives in
 
 **Status:** skeleton. The agent connects, sends a heartbeat on an interval and reconnects
 with exponential backoff. Libvirt functionality is being moved over piece by piece from
-the older `amqp-libvirt-bridge` agent (VM and network status, commands, storage). See
+the retired `amqp-libvirt-bridge` agent (VM and network status, commands, storage). See
 [Moving functionality](#moving-functionality).
 
 ## Build and run
